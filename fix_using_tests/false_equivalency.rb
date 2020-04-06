@@ -11,13 +11,12 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(num)
+def selection(num) do 
   if num = 1
-    puts "YUM YUM MUNCH MUNCH MUNCH"
+    "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     puts "HAM HAM HAM IN MY TUMMY"
+    "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry 
 end
 
 def runner
